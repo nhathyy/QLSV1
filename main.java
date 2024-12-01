@@ -1,12 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author OS
- */
 import java.util.Scanner;
 
 public class Main {
@@ -21,8 +12,8 @@ public class Main {
             System.out.println("3. Cập nhật thông tin sinh viên");
             System.out.println("4. Hiển thị danh sách sinh viên");
             System.out.println("5. Thoát");
-            System.out.print("Chọn một tùy chọn: ");
             System.out.println("\n------------ Hết ------------");
+            System.out.print("Chọn một tùy chọn: ");
             
             int choice = scanner.nextInt();
             scanner.nextLine(); 
